@@ -1,0 +1,49 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa; /* Màu nền nhạt */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng mờ */
+    max-width: 400px; /* Đặt độ rộng tối đa cho form */
+    margin: 0 auto; /* Căn giữa form theo chiều ngang */
+  }
+  
+  label {
+    font-size: 1.1em;
+    margin: 10px 0 5px;
+    align-self: flex-start; /* Đặt label theo chiều ngang trái */
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da; /* Đường viền xám */
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Màu xanh của nút */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Màu xanh đậm hơn khi hover */
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
